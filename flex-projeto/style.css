@@ -1,0 +1,17 @@
+body,
+header,
+h1,
+h2,
+h3,
+ul,
+li,
+section,
+aside,
+figure,
+img,
+article,
+p,
+footer {
+    margin: 0;
+    padding: 0;
+}
