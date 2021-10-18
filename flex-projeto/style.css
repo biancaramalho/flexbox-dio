@@ -1,4 +1,5 @@
 body,
+nav,
 header,
 h1,
 h2,
@@ -6,7 +7,7 @@ h3,
 ul,
 li,
 section,
-aside,
+main,
 figure,
 img,
 article,
@@ -14,4 +15,40 @@ p,
 footer {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+}
+
+header {
+    background-color: #014f83;
+    height: 100px;
+    display:flex;
+    align-items: center;
+}
+
+
+header .list-items {
+    display: flex;
+}
+
+header .menu {
+    justify-content: space-between;
 }

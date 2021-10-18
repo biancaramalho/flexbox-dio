@@ -3,32 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;0,700;1,500&display=swap" rel="stylesheet">
     <title>Flex Turismos</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
-        <h1>FlexTurismos</h1>
-        <ul>
-            <li><a href="#quem-somos">Quem Somos</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#planos">Planos</a></li>
-        </ul>
+        <nav class="flex-container menu">
+            <h1>FlexTurismos</h1>
+                <ul class="list-items">
+                    <li><a href="#">Quem Somos</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Planos</a></li>
+                </ul>
+        </nav>
     </header>
 
-    <section>
-        <aside>
+    <section class="flex-container">
+        <main>
             <h1>Flex Turismos</h1>
             <p>O melhor serviço para você!</p>
             <a href="">Saiba Mais!</a>
-        </aside>
+        </main>
 
         <figure>
             <img src="./images/0-main.png" alt="banner de apresentação">
         </figure>
     </section>
 
-    <section>
+    <section class="flex-container">
         <figure>
             <img src="./images/1-quem-somos.png" alt="balcão de atendimento">
         </figure>
@@ -40,7 +45,7 @@
         </article>
     </section>
 
-    <section>
+    <section class="flex-container">
         <article>
             <h2>Serviços</h2>
         </article>
@@ -67,7 +72,7 @@
         </section>
     </section>
 
-    <section>
+    <section class="flex-container">
 
         <section>
             <h3>Plano 2</h3>
@@ -105,7 +110,7 @@
         </section>
     </section>
 
-    <footer>
+    <footer class="flex-container">
         <p>&copy; 2021 CSS Flexbox</p>
         <p>Desenvolvido por: Seu nome aqui dev</p>
     </footer>
