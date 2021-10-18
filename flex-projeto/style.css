@@ -119,3 +119,54 @@ button {
     background-color: #014f83;
     position: relative;
 }
+
+#quem-somos img {
+    width: 420px;
+}
+
+.container-externo {
+    background-color: #014f83;
+    width: 100%;
+}
+
+#servicos {
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#servicos h2 {
+    color: antiquewhite;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.list-servicos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-servicos button {
+    background-color: antiquewhite;
+    color: #014f83;
+    border-radius: 15px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 50px;
+}
+
+.list-servicos p {
+    font-weight: 700;
+    color: antiquewhite;
+    padding: 10px 10px;
+}
+
+.list-servicos .item-servicos {
+    text-align: center;
+}
+
+.item-servicos img {
+    width: 80%;
+    margin: auto;
+}
