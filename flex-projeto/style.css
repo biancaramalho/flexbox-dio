@@ -12,6 +12,7 @@ figure,
 img,
 article,
 p,
+button,
 footer {
     margin: 0;
     padding: 0;
@@ -26,6 +27,11 @@ ul li a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+    width: 100%;
+}
+
 .flex-container {
     display: flex;
     max-width: 992px;
@@ -35,6 +41,8 @@ ul li a {
 
 h1 {
     display: flex;
+    font-size: 48px;
+    margin-bottom: 10px;
 }
 
 header {
@@ -42,13 +50,72 @@ header {
     height: 100px;
     display:flex;
     align-items: center;
+    color: antiquewhite;
 }
 
 
 header .list-items {
     display: flex;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.list-items li a {
+    color: antiquewhite;
 }
 
 header .menu {
     justify-content: space-between;
+}
+
+.apresentacao {
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    font-size: large;
+    display: block;
+    background-color: #014f83;
+    color: antiquewhite;
+    text-align: center;
+    border: none;
+    border-radius: 13px;
+    margin: 5px;
+    height: 50px;
+    width: 215px;
+    cursor: pointer;
+}
+
+.texto-apresentacao h1 {
+    color: #014f83;
+}
+
+.apresentacao .texto-apresentacao {
+    height: 200px;
+}
+
+#quem-somos {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#quem-somos h2 {
+    font-size: 32px;
+    color: #014f83;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#quem-somos h2::before {
+    content: "";
+    width: 5px;
+    height: 50px;
+    margin-right: 5px;
+    background-color: #014f83;
+    position: relative;
 }
